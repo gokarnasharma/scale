@@ -14,20 +14,16 @@
     <div id="header">
       <div id="logo">
         <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><img src = "style/icon.png"  alt = "icon" /> </h1>
-          <!--<h1><a href="index.html">simple<span class="logo_colour">style_banner</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>-->
+          <h1><img src="style/icon.png" alt="icon" /></h1>
         </div>
       </div>
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
           <li><a href="news.html">News</a></li>
           <li class="selected"><a href="people.html">People</a></li>
           <li><a href="research.html">Research</a></li>
-		  <li><a href="publications.html">Publications</a></li>
+          <li><a href="publications.html">Publications</a></li>
           <li><a href="education.html">Education</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -35,132 +31,73 @@
     </div>
     <div id="content_header"></div>
     <div id="site_content">
-      <!--<div id="sidebar_container">
-        <div class="sidebar">
-          <br/><div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <!-- insert your sidebar items here -->
-            <!--<h3>Latest News</h3>
-            <!--Insert Latest News below-->
-			<!--<h4>Lab Website Launched</h4><!--title-->
-            <!--<h5>June 20th, 2017</h5><!--date-->
-			<!--first line news-->
-            <!--<p>A new website for the research lab <b>SCALE</b> has been launched. Take a look around and let us know your comments and feedback.<br /><a href="news.html">Read more</a></p>
-			
-			<h4>Two Papers Presented in IPDPS 2017</h4><!--title-->
-            <!--<h5>June 1st, 2017</h5><!--date-->
-			<!--first line news-->
-            <!--<p>Two papers have recently been presented in IPDPS 2017. O(log N)-Time Complete Visibility for Asynchronous Robots with Lights. Gokarna Sharma, Ramachandran Vaidyanathan, Jerry L. Trahan, Costas Busch, and Suresh Rai ... <br /><a href="news.html">Read more</a></p>
-			
-			<h4>Two Papers Accepted in SPAA 2017</h4><!--title-->
-            <!--<h5>April 13th, 2017</h5><!--date-->
-			<!--first line news-->
-            <!--<p>Two papers have been accepted in SPAA 2017. Fast Scheduling in Distributed Transactional Memory. Costas Busch, Maurice Herlihy, Miroslav Popovic, and Gokarna Sharma ... <br /><a href="news.html">Read more</a></p>
-			
-			<h4>NVIDIA GPU received</h4><!--title-->
-            <!--<h5>March 20th, 2017</h5><!--date-->
-			<!--first line news-->
-            <!--<p>NVIDIA has recently provided a Titan X Pascal GPU to support our research.<br /><a href="news.html">Read more</a></p>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Related Conferences</h3>
-            <ul>
-              <li><a href="https://spaa.acm.org/2017/index.html">SPAA</a></li>
-              <li><a href="https://www.podc.org/podc2017/">PODC</a></li>
-              <li><a href="http://www.ipdps.org/">IPDPS</a></li>
-              <li><a href="http://conf.researchr.org/home/PPoPP-2017">PPoPP</a></li>
-			  <li><a href="http://www.disc-conference.org/2017/">DISC</a></li>
-			  <li><a href="https://icdcs2017.gatech.edu/">ICDCS</a></li>
-			  <li><a href="http://www.confsearch.org/confsearch/faces/pages/topic.jsp?topic=distributed%20computing&sortMode=1&graphicView=1">List of Distributed Computing Conferences with Schedule</a></li>
-            </ul>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <!--<div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Search</h3>
-            <form method="post" action="#" id="search_form">
-              <p>
-                <input class="search" type="text" name="search_field" value="Enter keywords....." />
-                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-              </p>
-            </form>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-      </div>-->
       <div id="content">
-        <!-- insert the page content here -->
         <h1>People</h1><br/>
-		<!--<span class="center"><img src="style/graphic.png" alt="example graphic" /> group photo</span>-->
-        <div style="margin-left:1em;">
-		<h4>Faculty Director</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          <li><a href="http://www.cs.kent.edu/~sharma/" target = "_blank">Gokarna Sharma</a></li>
+        <div class="people-container">
+          <h2>Faculty Director</h2>
+          <div class="person">
+            <img src="images/gokarna_sharma.jpg" alt="Gokarna Sharma" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p><a href="http://www.cs.kent.edu/~sharma/" target="_blank">Gokarna Sharma</a></p>
+          </div>
           
-        </ul>
-		</div>
-		<h4>Ph.D. Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-      <li>Shishir Rai (since Fall 2017)</li>
-      <li>Tala Talaei Khoei (since Fall 2017)</li>
-      <li><a href="http://www.cs.kent.edu/~ppoudel/" target = "_blank">Pavan Poudel</a> &nbsp;(since Fall 2016)</li>
-		  
+          <h2>Ph.D. Students</h2>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Swapnil Guragain" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Swapnil Guragain</p>
+          </div>
+         
+          <div class="person">
+            <img src="images/bibek.jpg" alt="Bibek Maharjan" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p><a href="http://www.cs.kent.edu/~bmaharj1/" target="_blank">Bibek Maharjan</a></p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Sushant Bhattarai" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p><a href="http://www.cs.kent.edu/~healthybro/" target="_blank">Sushant Bhattarai</a></p>
+          </div>
           
-        </ul>
-		</div>
-		<!--<h4>Masters Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          <li>Aisha Aljohani</li>
+          <h2>Graduated Students</h2>
+          <div class="person">
+            <img src="images/sishir_rai.jpeg" alt="Shishir Rai" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Shishir Rai</p>
+          </div>
+          <div class="person">
+            <img src="images/pavan_poudel.jpg" alt="Pavan Poudel" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p><a href="http://www.cs.kent.edu/~ppoudel/" target="_blank">Pavan Poudel</a></p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Aisha Aljohani" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Aisha Aljohani</p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Rusual Alsaidi" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Rusual Alsaidi</p>
+          </div>
           
-        </ul>
-		</div>
-		<h4>Undergraduate Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          
-        </ul>
-		</div>
-		<h4>High School Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          
-          
-        </ul>
-		</div>-->
-		<h4>Graduated Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          <li>Aisha Aljohani (graduation: December 2017)</li>
-          <li>Rusual Alsaidi (graduation: May 2016)</li>
-      </ul>
-    </div>
-		
-		<h4>Past Students</h4>
-		<div style="margin-left:2em;">
-		<ul>
-          <li>Mayank Ladoia (Ph.D. student)</li>
-          <li>Paul Birkholtz (Undergraduate student)</li>
-		      <li>Jade Goodwin (High School student)</li>
-      </ul>
-    </div>
-		</div>
-		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <h2>Past Students</h2>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Tala Talaei Khoei" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Tala Talaei Khoei</p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Mayank Ladoia" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Mayank Ladoia</p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Paul Birkholtz" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Paul Birkholtz</p>
+          </div>
+          <div class="person">
+            <img src="images/profile.jpg" alt="Jade Goodwin" style="width: 250px; height: 250px; object-fit: contain; object-position: top; border: 3px solid #ccc;">
+            <p>Jade Goodwin</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="content_footer"></div>
     <div id="footer">
-      <p><a href="index.html" >Home</a> | <a href="news.html">News</a> | <a href="people.html">People</a> | <a href="research.html">Research</a> | <a href="publications.html">Publications</a> | <a href="education.html">Education</a> | <a href="contact.html">Contact Us</a></p>
+      <p><a href="index.html">Home</a> | <a href="news.html">News</a> | <a href="people.html">People</a> | <a href="research.html">Research</a> | <a href="publications.html">Publications</a> | <a href="education.html">Education</a> | <a href="contact.html">Contact Us</a></p>
       <p>Copyright &copy; KSU Department of Computer Science</p>
     </div>
-  </div>
+</div>
+
 </body>
 </html>
